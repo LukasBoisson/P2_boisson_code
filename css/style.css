@@ -1,0 +1,40 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+/* HEADER */
+
+header {
+  margin: 30px;
+}
+
+header,
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid green;
+}
+
+#logo_small {
+  width: 130px;
+  padding-left: 20px;
+  border: 1px solid green;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+nav a {
+  padding: 20px;
+}
+
+.navigation:hover {
+  border-top: 2px solid #0065fc;
+}
