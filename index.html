@@ -16,7 +16,21 @@
     />
     <!-- normalize.css -->
     <link href="css/normalize.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
+    <link
+      href="css/style_mobile_768px.css"
+      media="screen and (max-width: 768px)"
+      rel="stylesheet"
+    />
+    <link
+      href="css/style_tablet_ 992px-768px.css"
+      media="screen and (min-width: 768px) and (max-width: 992px)"
+      rel="stylesheet"
+    />
+    <link
+      href="css/style.css"
+      media="screen and (min-width: 992px)"
+      rel="stylesheet"
+    />
     <title>Booki</title>
   </head>
   <body>
@@ -41,7 +55,10 @@
             <input type="search" placeholder="Marseille, France" />
           </div>
           <div id="search_button">
-            <button class="search_button" type="submit">Rechercher</button>
+            <button class="search_button" type="submit">
+              <span class="search_button_text">Rechercher</span>
+              <i class="fas fa-search"></i>
+            </button>
           </div>
         </div>
         <!-- filtres -->
