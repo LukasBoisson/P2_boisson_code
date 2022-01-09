@@ -1,13 +1,10 @@
-* {
-  font-family: "Raleway", sans-serif;
-}
-
 img {
   object-fit: cover;
 }
 
 body {
   margin: auto;
+  font-family: "Raleway", sans-serif;
 }
 
 #size {

@@ -1,8 +1,6 @@
 @media screen and (max-width: 768px) {
   body {
     max-width: 768px;
-  }
-  * {
     font-family: "Raleway", sans-serif;
   }
 
@@ -51,10 +49,10 @@
 
   .nav li:hover {
     border-bottom: 4px solid #0065fc;
-    color: #0065fc;
   }
   .nav a:hover {
     border-top: none;
+    color: #0065fc;
   }
   .nav a {
     display: flex;
